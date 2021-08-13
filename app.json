@@ -1,0 +1,16 @@
+{
+  "name": "Node Js URL shortener",
+  "description": "Custom url shortener app with node js and express js",
+  "keywords": ["nodejs", "expressjs", "url-shortener"],
+  "repository": "https://github.com/ankityadavhere/url-shortener",
+  "success_url": "/welcome",
+  "stack": "heroku-20",
+  "scripts": {
+    "postdeploy": "node src/app.js"
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
+}
