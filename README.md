@@ -15,7 +15,7 @@ src="https://img.shields.io/github/last-commit/ankityadavhere/url-shortener"></a
 ## Prerequisites
 
 - Fundamental knowledge of Node.js and Express
-- Node.js >= 12.0.0 installed
+- Node.js >= v12x installed
 
 ## Running locally
 
