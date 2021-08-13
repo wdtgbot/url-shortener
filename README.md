@@ -12,6 +12,11 @@ src="https://img.shields.io/github/last-commit/ankityadavhere/url-shortener"></a
 
 # Custom URL Shortener with Node.js and Express
 
+## Prerequisites
+
+- Fundamental knowledge of Node.js and Express
+- Node.js >= 12.0.0 installed
+
 ## Running locally
 
 - Fork the repo
