@@ -44,7 +44,11 @@ yarn start dev
 
 **One can route as many URLs as we want in [`routes.js`](https://github.com/ankityadavhere/url-shortener/blob/main/src/routes/routes.js)**
 
-## One click deployment to Heroku
+**The Heroku deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've [`ankt.me`](https://ankt.me)**
+
+This domain can be linked with heroku deployment, Voila! We have a URL shortener that we can use to shorten long URLs!
+
+## One click deployment to [Heroku](https://heroku.com)
 
 <a href="https://heroku.com/deploy">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
