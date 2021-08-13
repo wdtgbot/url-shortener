@@ -3,7 +3,6 @@
   "description": "Custom url shortener app with node js and express js",
   "keywords": ["nodejs", "expressjs", "url-shortener"],
   "repository": "https://github.com/ankityadavhere/url-shortener",
-  "success_url": "/welcome",
   "stack": "heroku-20",
   "buildpacks": [
     {
