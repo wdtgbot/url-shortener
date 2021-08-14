@@ -15,7 +15,7 @@ src="https://img.shields.io/github/last-commit/ankityadavhere/url-shortener"></a
 ## Prerequisites
 
 - Fundamental knowledge of Node.js and Express
-- Node.js >= v12x installed
+- Node.js >= 12x installed
 
 ## Running locally
 
@@ -47,14 +47,12 @@ OR
 yarn start dev
 ```
 
-**One can route as many URLs as we want in [`routes.js`](https://github.com/ankityadavhere/url-shortener/blob/main/src/routes/routes.js)**
+**One can route as many URLs as we want in [`routes.js`](https://github.com/ankityadavhere/url-shortener/blob/main/routes/routes.js)**
 
-**The Heroku deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've https://ankt.me**
+**The [Deta](https://www.deta.sh/) deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've https://ankt.me**
 
-This domain can be linked with heroku deployment, Voila! We have a URL shortener that we can use to shorten long URLs!
+This domain can be linked with [Deta](https://www.deta.sh/) deployment, Voila! We have a URL shortener that we can use to shorten long URLs!
 
-## One click deployment to [Heroku](https://heroku.com)
+## One click deployment to [Deta](https://www.deta.sh/)
 
-<a href="https://heroku.com/deploy">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
+[![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy)

@@ -2,14 +2,14 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "Free URL shortener for myself",
-  "main": "src/app.js",
+  "main": "index.js",
   "repository": "https://github.com/ankityadavhere/url-shortener",
   "author": "Ankit Yadav",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e hbs,css"
+    "start": "node index.js",
+    "dev": "nodemon index.js -e hbs,css"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
