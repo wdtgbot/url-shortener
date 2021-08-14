@@ -10,7 +10,7 @@ src="https://img.shields.io/github/last-commit/ankityadavhere/url-shortener"></a
 <a href="https://open.vscode.dev/ankityadavhere/url-shortener"><img alt="open in vs code" src="https://open.vscode.dev/badges/open-in-vscode.svg"></a>
 </p>
 
-# Custom URL Shortener with Node.js and Express
+# Custom URL Shortener with Node.js and Express.js
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ yarn start dev
 
 **One can route as many URLs as we want in [`routes.js`](https://github.com/ankityadavhere/url-shortener/blob/main/src/routes/routes.js)**
 
-**The Heroku deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've [`ankt.me`](https://ankt.me)**
+**The Heroku deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've https://ankt.me**
 
 This domain can be linked with heroku deployment, Voila! We have a URL shortener that we can use to shorten long URLs!
 
