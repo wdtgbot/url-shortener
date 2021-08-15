@@ -32,7 +32,7 @@ npm install
 OR
 
 ```
-yarn install
+yarn
 ```
 
 - Running the app in development mode
