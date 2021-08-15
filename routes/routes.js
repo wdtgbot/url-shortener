@@ -29,6 +29,10 @@ router.get('/wcc', async (req, res) => {
   await res.redirect('https://github.com/ankityadavhere/whatsapp-clone');
 });
 
+router.get('/m', async (req, res) => {
+  await res.redirect('https://ankityadavhere.github.io/musix/');
+});
+
 router.get('*', async (req, res) => {
   await res.render('404');
 });
