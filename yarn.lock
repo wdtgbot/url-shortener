@@ -426,13 +426,6 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-express-ga-middleware@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/express-ga-middleware/-/express-ga-middleware-0.1.6.tgz#ffc29a2ed0a6cfa7388c8441da7dbf3f04613dac"
-  integrity sha512-MrNs6PlAH6P0UYO96U641F0RC6Q67uwjwX3r6k7qwR9vqJy1jhnSMEb/N4vpLsf9UsvTMO8aiI7X7u3bITaBgQ==
-  dependencies:
-    universal-analytics "^0.4.15"
-
 express@^4.17.1:
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
@@ -1414,7 +1407,7 @@ unique-string@^2.0.0:
   dependencies:
     crypto-random-string "^2.0.0"
 
-universal-analytics@^0.4.15:
+universal-analytics@^0.4.23:
   version "0.4.23"
   resolved "https://registry.yarnpkg.com/universal-analytics/-/universal-analytics-0.4.23.tgz#d915e676850c25c4156762471bdd7cf2eaaca8ac"
   integrity sha512-lgMIH7XBI6OgYn1woDEmxhGdj8yDefMKg7GkWdeATAlQZFrMrNyxSkpDzY57iY0/6fdlzTbBV03OawvvzG+q7A==

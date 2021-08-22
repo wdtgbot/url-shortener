@@ -1,5 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const ua = require('universal-analytics');
+const visitor = ua(process.env.GA_ACCID);
+
+visitor.pageview('/half').send();
 
 router.get('/', async (req, res) => {
   await res.redirect('https://github.com/ankityadavhere');
