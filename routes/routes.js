@@ -5,8 +5,8 @@ const ua = require('universal-analytics');
 const visitor = ua(process.env.GA_ACCID);
 
 router.get('/run', async (req, res) => {
-  await res.redirect('https://github.com/ankityadavhere');
-  visitor.pageview('/run').send();
+  await res.redirect('https://github.com');
+  await visitor.pageview('/run').send();
 });
 
 router.get('/', async (req, res) => {
