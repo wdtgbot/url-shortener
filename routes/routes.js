@@ -4,8 +4,9 @@ const router = express.Router();
 const ua = require('universal-analytics');
 const visitor = ua(process.env.GA_ACCID);
 
+visitor.pageview('/mic').send();
+
 router.get('/run', async (req, res) => {
-  visitor.pageview('/run').send();
   await res.redirect('https://github.com');
 });
 

@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js -e hbs,css"
+    "dev": "nodemon index.js -e hbs,css,js"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
