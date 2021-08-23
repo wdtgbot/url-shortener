@@ -1,13 +1,24 @@
-<p align="center">
-<a href="https://github.com/ankityadavhere/url-shortener/issues"><img alt="issues" src="https://img.shields.io/github/issues/ankityadavhere/url-shortener"></a>
-<a href="https://github.com/ankityadavhere/url-shortener/blob/master/LICENSE"><img alt="license"
-src="https://img.shields.io/github/license/ankityadavhere/url-shortener"></a>
-<a href="https://github.com/ankityadavhere/url-shortener/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/ankityadavhere/url-shortener?style=social"></a>
-<a href="https://open.vscode.dev/ankityadavhere/url-shortener"><img alt="Open in VS Code" src="https://open.vscode.dev/badges/open-in-vscode.svg"></a>
-<a href="https://gitpod.io/from-referrer"><img alt="Gitpod Ready-to-Code" src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod"></a>
-</p>
+# ⚡ Custom NodeJs URL Shortener [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/ankityadavhere/url-shortener)
 
-# Custom NodeJs and ExpressJs URL Shortener
+[![issues](https://img.shields.io/github/issues/ankityadavhere/url-shortener)](https://github.com/ankityadavhere/url-shortener/issues)
+[![license](https://img.shields.io/github/license/ankityadavhere/url-shortener)](https://github.com/ankityadavhere/url-shortener/blob/master/LICENSE)
+[![stars](https://img.shields.io/github/stars/ankityadavhere/url-shortener?style=social)](https://github.com/ankityadavhere/url-shortener/stargazers)
+
+> It Shortens links, that's all.
+
+## The Problem
+
+URL shorteners out there in market provides random, hard to remember links that nobody can remember.
+With this you can create easy to remember links! Enjoy!
+
+Also it has google analytics 👀
+
+## Prerequisites
+
+- NodeJs, ExpressJs
+- Google analytics account
+- [Deta](https://deta.sh) account
+- a short domain if you want (like mine https://ankt.me)
 
 ## Running locally
 
@@ -27,7 +38,7 @@ OR
 yarn
 ```
 
-- Running the app in development mode
+- Running the development server
 
 ```bash
 npm start dev
@@ -39,14 +50,26 @@ OR
 yarn start dev
 ```
 
-One can route as many URLs as we want in [routes](https://github.com/ankityadavhere/url-shortener/blob/main/routes/routes.js)
+**One can route as many URLs in [routes](https://github.com/ankityadavhere/url-shortener/blob/main/routes/routes.js)**
+
+## Analytics
+
+I've used [google analytics](https://analytics.google.com), get your own gtag script and paste in into [404 page](https://github.com/ankityadavhere/url-shortener/blob/main/views/404.hbs) and [analytics page](https://github.com/ankityadavhere/url-shortener/blob/main/views/analytics.hbs)
+
+> Else it'll show up in my account lol
+
+## Deployment
+
+- Get the deta access token and put it as a secret in the repo as `DETA_TOKEN`
 
 I've deployed it to a [Deta Micro](https://docs.deta.sh/docs/micros/about)
 
-The Deta deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've https://ankt.me
+we'll use this [action](https://github.com/marketplace/actions/deploy-to-deta) for automatic deployment to deta 👀, so put the access token first!
 
-This domain can be linked with Deta deployment, Voila!
+The Deta deployment URL is a bit long, it's recommended to have a custom domain (preferably a shorter domain) like the one I've https://ankt.me, this domain can be linked with Deta deployment
 
-## Deploy to [Deta](https://www.deta.sh/)
+That's it! whoosh!
+
+## Deploy to Deta
 
 [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy)

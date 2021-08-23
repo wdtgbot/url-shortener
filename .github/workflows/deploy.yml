@@ -1,3 +1,4 @@
+# Detailed instructions about the action https://github.com/marketplace/actions/deploy-to-deta
 name: Deploy to Deta
 on: push
 
